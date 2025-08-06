@@ -90,7 +90,7 @@ mvsqlite can be built with the standard Rust toolchain:
 ```bash
 cargo build --release -p mvstore
 cargo build --release -p mvsqlite
-make -C mvsqlite-preload
+./mvsqlite-preload/build.sh
 ```
 
 Internals are documented in the [wiki](https://github.com/losfair/mvsqlite/wiki).
